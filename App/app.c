@@ -14,7 +14,8 @@ int __cdecl main(int argc, char* argv[])
     HANDLE hFile = NULL;
 
     hFile = CreateFile(L"\\\\.\\MyDriver", GENERIC_READ | GENERIC_WRITE, 0, NULL, OPEN_EXISTING, 0, NULL);
-    if (hFile == INVALID_HANDLE_VALUE) {
+    if (hFile == INVALID_HANDLE_VALUE)
+    {
         printf("failed to open mydriver");
         return 1;
     }
