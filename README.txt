@@ -20,9 +20,7 @@ SERVICE_NAME: io1
 
 
 For App:
-D:\workspace_VisualStudio\ioctl_Windows\x64\Debug>app
-
-D:\workspace_VisualStudio\ioctl_Windows\x64\Debug>
+app
 
 
 
