@@ -3,6 +3,7 @@ Windows wdk driver: ioctl demo
 
 For driver:
 D:\workspace_VisualStudio\ioctl_Windows\x64\Debug>sc create io1 binpath=D:\workspace_VisualStudio\ioctl_Windows\x64\Debug\ioctl_Windows.sys type=kernel
+
 [SC] CreateService SUCCESS
 
 D:\workspace_VisualStudio\ioctl_Windows\x64\Debug>sc start io1
